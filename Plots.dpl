@@ -1,0 +1,78 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-252,-471,1508,2287,0.929252,0,1656>
+  <Grid=10,10,0>
+  <DataSet=Global Pulse Analysis.dat>
+  <DataDisplay=Global Pulse Analysis.sch>
+  <OpenDisplay=1>
+  <Script=Global Pulse Analysis.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -66 588 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.68098e-06 5e-07 7.48488e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneLGAD_oneSiMS:ICmid.It" #0000ff 2 3 0 0 0>
+	<"oneLGAD:ICmid.It" #ff0000 2 3 0 0 0>
+	<"oneLGAD_fiveSiMS:ICmid.It" #ff00ff 2 3 0 0 0>
+	<"oneLGAD_oneSiMS_swapped:ICmid.It" #800080 2 3 0 0 0>
+  </Rect>
+  <Rect -64 -133 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.65203e-06 5e-07 2.53131e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneLGAD:ICin.It" #c00000 2 3 0 0 0>
+	<"oneSiMS:ICin.It" #ff7800 2 3 0 1 0>
+	<"oneLGAD_oneSiMS:ICin.It" #0217ca 2 3 0 0 0>
+	<"fiveSIMS:ICin.It" #108040 2 3 0 0 0>
+	<"oneLGAD_fiveSiMS:ICin.It" #fc02ff 2 3 0 1 0>
+	<"oneLGAD_oneSiMS_swapped:ICin.It" #800080 2 3 0 3 0>
+	<"oneLGADsharing_oneSiMSsharing:ICin.It" #6f3700 2 3 0 1 0>
+  </Rect>
+  <Rect -64 237 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.6421e-06 5e-07 2.63085e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneSiMS:ICin2.It" #ff7800 2 3 0 0 0>
+	<"oneLGAD_oneSiMS:ICin2.It" #0217ca 2 3 0 0 0>
+	<"fiveSiMS:ICin2.It" #108040 2 3 0 1 0>
+	<"oneLGAD_fiveSiMS:ICin2.It" #fc02ff 2 3 0 1 0>
+	<"oneLGAD_oneSiMS_swapped:ICin2.It" #800080 2 3 0 3 0>
+	<"oneLGADsharing_oneSiMSsharing:ICin2.It" #6f3700 2 3 0 1 0>
+  </Rect>
+  <Rect -66 948 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.68098e-06 5e-07 7.48489e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneSiMS:ICout.It" #ff7800 2 3 0 0 0>
+	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
+	<"oneLGAD:ICout.It" #fc0107 2 3 0 0 0>
+	<"fiveSiMS:ICout.It" #108040 2 3 0 2 0>
+	<"oneLGAD_fiveSiMS:ICout.It" #fc02ff 2 3 0 0 0>
+  </Rect>
+  <Rect -66 1308 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -1.25771e-06 2e-07 4e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
+	<"oneLGAD_oneSiMS_swapped:ICout.It" #800080 2 3 0 0 0>
+  </Rect>
+  <Rect -70 2033 1290 297 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -0.160244 0.05 0.0145679 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneSiMS:CSAout.Vt" #ff7800 2 3 0 0 0>
+	<"oneLGAD_oneSiMS:CSAout.Vt" #0217ca 2 3 0 0 0>
+	<"oneLGAD:CSAout.Vt" #fc0107 2 3 0 0 0>
+	<"fiveSiMS:CSAout.Vt" #108040 2 3 0 1 0>
+	<"oneLGAD_fiveSiMS:CSAout.Vt" #fc02ff 2 3 0 0 0>
+	<"oneLGAD_oneSiMS_swapped:CSAout.Vt" #800080 2 3 0 0 0>
+	<"oneLGAD_oneSiMSsharing:CSAout.Vt" #000000 2 3 0 0 0>
+	<"oneLGAD_oneSiMSsharing:CSAout2.Vt" #4196b4 2 3 0 0 0>
+	<"oneLGADsharing_oneSiMSsharing:CSAout.Vt" #8e0000 2 3 0 1 0>
+	<"oneLGADsharing_oneSiMSsharing:CSAout2.Vt" #6f3700 2 3 0 1 0>
+  </Rect>
+  <Rect -66 1668 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -1.22003e-06 2e-07 4.62335e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
+	<"oneLGAD_oneSiMSsharing:ICout.It" #000000 2 3 0 1 0>
+	<"oneLGAD_oneSiMSsharing:ICout2.It" #4196b4 2 3 0 1 0>
+	<"oneLGADsharing_oneSiMSsharing:ICout2.It" #6f3700 2 3 0 1 0>
+	<"oneLGADsharing_oneSiMSsharing:ICout.It" #8e0000 2 3 0 1 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
