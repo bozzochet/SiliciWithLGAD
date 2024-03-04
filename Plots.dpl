@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-252,-471,1508,2287,0.929252,0,1656>
+  <View=-300,-471,1508,4821,0.882063,0,3883>
   <Grid=10,10,0>
   <DataSet=Global Pulse Analysis.dat>
   <DataDisplay=Global Pulse Analysis.sch>
@@ -20,13 +20,13 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect -66 588 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.68098e-06 5e-07 7.48488e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -66 588 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.69838e-06 5e-07 2.85144e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneLGAD_oneSiMS:ICmid.It" #0000ff 2 3 0 0 0>
 	<"oneLGAD:ICmid.It" #ff0000 2 3 0 0 0>
 	<"oneLGAD_fiveSiMS:ICmid.It" #ff00ff 2 3 0 0 0>
 	<"oneLGAD_oneSiMS_swapped:ICmid.It" #800080 2 3 0 0 0>
   </Rect>
-  <Rect -64 -133 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.65203e-06 5e-07 2.53131e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -64 -133 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.64093e-06 5e-07 2.50283e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneLGAD:ICin.It" #c00000 2 3 0 0 0>
 	<"oneSiMS:ICin.It" #ff7800 2 3 0 1 0>
 	<"oneLGAD_oneSiMS:ICin.It" #0217ca 2 3 0 0 0>
@@ -35,7 +35,7 @@
 	<"oneLGAD_oneSiMS_swapped:ICin.It" #800080 2 3 0 3 0>
 	<"oneLGADsharing_oneSiMSsharing:ICin.It" #6f3700 2 3 0 1 0>
   </Rect>
-  <Rect -64 237 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.6421e-06 5e-07 2.63085e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -64 237 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.6421e-06 5e-07 2.63084e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneSiMS:ICin2.It" #ff7800 2 3 0 0 0>
 	<"oneLGAD_oneSiMS:ICin2.It" #0217ca 2 3 0 0 0>
 	<"fiveSiMS:ICin2.It" #108040 2 3 0 1 0>
@@ -43,18 +43,18 @@
 	<"oneLGAD_oneSiMS_swapped:ICin2.It" #800080 2 3 0 3 0>
 	<"oneLGADsharing_oneSiMSsharing:ICin2.It" #6f3700 2 3 0 1 0>
   </Rect>
-  <Rect -66 948 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -2.68098e-06 5e-07 7.48489e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -66 948 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.69838e-06 5e-07 2.85145e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneSiMS:ICout.It" #ff7800 2 3 0 0 0>
 	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
 	<"oneLGAD:ICout.It" #fc0107 2 3 0 0 0>
 	<"fiveSiMS:ICout.It" #108040 2 3 0 2 0>
 	<"oneLGAD_fiveSiMS:ICout.It" #fc02ff 2 3 0 0 0>
   </Rect>
-  <Rect -66 1308 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -1.25771e-06 2e-07 4e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -66 1308 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.64256e-06 5e-07 2.682e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
 	<"oneLGAD_oneSiMS_swapped:ICout.It" #800080 2 3 0 0 0>
   </Rect>
-  <Rect -70 2033 1290 297 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -0.160244 0.05 0.0145679 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -60 2743 1290 297 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -0.15 0.05 0.01339 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneSiMS:CSAout.Vt" #ff7800 2 3 0 0 0>
 	<"oneLGAD_oneSiMS:CSAout.Vt" #0217ca 2 3 0 0 0>
 	<"oneLGAD:CSAout.Vt" #fc0107 2 3 0 0 0>
@@ -66,12 +66,69 @@
 	<"oneLGADsharing_oneSiMSsharing:CSAout.Vt" #8e0000 2 3 0 1 0>
 	<"oneLGADsharing_oneSiMSsharing:CSAout2.Vt" #6f3700 2 3 0 1 0>
   </Rect>
-  <Rect -66 1668 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.08e-06 1 -1.22003e-06 2e-07 4.62335e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+  <Rect -56 2378 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.02447e-06 2e-07 1.21102e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
 	<"oneLGAD_oneSiMSsharing:ICout.It" #000000 2 3 0 1 0>
 	<"oneLGAD_oneSiMSsharing:ICout2.It" #4196b4 2 3 0 1 0>
 	<"oneLGADsharing_oneSiMSsharing:ICout2.It" #6f3700 2 3 0 1 0>
 	<"oneLGADsharing_oneSiMSsharing:ICout.It" #8e0000 2 3 0 1 0>
+  </Rect>
+  <Rect -64 3147 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.32e-06 2e-07 1.2e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"fiveSIMS_series:ICin.It" #000000 2 3 0 0 0>
+	<"fiveSIMS_series:ICin1.It" #6f3700 2 3 0 0 0>
+	<"fiveSIMS_series:ICin2.It" #0000ff 2 3 0 0 0>
+	<"fiveSIMS_series:ICin3.It" #ff0000 2 3 0 0 0>
+	<"fiveSIMS_series:ICin4.It" #ff00ff 2 3 0 0 0>
+	<"fiveSIMS_series:ICin5.It" #108040 2 3 0 0 0>
+	<"oneSiMS_samesignal:ICin.It" #ff7800 2 3 0 0 0>
+	<"fiveSIMS_samesignal:ICin.It" #800080 2 3 0 1 0>
+  </Rect>
+  <Rect -64 3527 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.32e-06 2e-07 1.2e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"fiveSIMS_samesignal:ICin.It" #000000 2 3 0 0 0>
+	<"fiveSIMS_samesignal:ICin1.It" #6f3700 2 3 0 0 0>
+	<"fiveSIMS_samesignal:ICin2.It" #0000ff 2 3 0 0 0>
+	<"fiveSIMS_samesignal:ICin3.It" #ff0000 2 3 0 0 0>
+	<"fiveSIMS_samesignal:ICin4.It" #ff00ff 2 3 0 0 0>
+	<"fiveSIMS_samesignal:ICin5.It" #108040 2 3 0 0 0>
+	<"oneSiMS_samesignal:ICin.It" #ff7800 2 3 0 0 0>
+	<"fiveSIMS_series:ICin.It" #800080 2 3 0 1 0>
+  </Rect>
+  <Rect -66 1668 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.64256e-06 5e-07 2.682e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
+	<"oneLGAD_oneSiMS:ICin.It" #108040 2 3 0 0 0>
+	<"oneLGAD_oneSiMS:ICin2.It" #8e0000 2 3 0 1 0>
+  </Rect>
+  <Rect -66 2018 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -2.64256e-06 5e-07 2.682e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneLGAD_oneSiMS_swapped:ICout.It" #800080 2 3 0 0 0>
+	<"oneLGAD_oneSiMS_swapped:ICin.It" #21ff06 2 3 0 0 0>
+	<"oneLGAD_oneSiMS_swapped:ICin2.It" #fc0107 2 3 0 0 0>
+  </Rect>
+  <Rect -74 3897 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.32004e-06 2e-07 1.20392e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"fiveSIMS_series:ICmid1.It" #6f3700 4 3 0 0 0>
+	<"fiveSIMS_series:ICmid2.It" #0000ff 2 3 0 2 0>
+	<"fiveSIMS_series:ICmid3.It" #ff0000 2 3 0 2 0>
+	<"fiveSIMS_series:ICmid4.It" #ff00ff 2 3 0 2 0>
+	<"fiveSIMS_series:ICin.It" #800080 2 3 0 2 0>
+	<"fiveSIMS_series:ICin1.It" #000000 2 3 0 0 0>
+	<"fiveSIMS_series:ICbias1.It" #108040 2 3 0 0 0>
+  </Rect>
+  <Rect -76 4258 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.22153e-06 2e-07 1.25032e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"oneSiMS_samesignal:ICout.It" #ff7800 2 3 0 0 0>
+	<"fiveSiMS_samesignal:ICout.It" #108040 2 3 0 1 0>
+	<"fiveSIMS_series:ICout.It" #0217ca 2 3 0 0 0>
+	<"twoSIMS_series:ICout.It" #66c428 2 3 0 0 0>
+  </Rect>
+  <Rect -74 4627 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.32e-06 2e-07 1.20053e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
+	<"games:ICin.It" #00ffff 2 3 0 0 0>
+	<"games:ICin1.It" #c1c108 2 3 0 2 0>
+	<"games:ICout.It" #ff7800 2 3 0 1 0>
+	<"games:ICbias.It" #c00000 4 3 0 2 0>
+	<"games:ICindiode.It" #0217ca 2 3 0 0 0>
+	<"games:ICinleak.It" #fb00ef 2 3 0 0 0>
+	<"games:ICinC.It" #108040 2 3 0 0 0>
+	<"games:ICinCafter.It" #000000 2 3 0 1 0>
+	<"games:ICinCdiodeafter.It" #0f80ff 2 3 0 1 0>
+	<"games:ICinleakafter.It" #800040 2 3 0 1 0>
   </Rect>
 </Diagrams>
 <Paintings>

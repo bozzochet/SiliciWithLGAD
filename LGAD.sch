@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=0,-31,1042,1409,1,0,0>
+  <View=0,-31,1143,1409,1,0,0>
   <Grid=10,10,1>
   <DataSet=LGAD.dat>
   <DataDisplay=LGAD.dpl>
@@ -24,7 +24,7 @@
   <Line 0 60 0 20 #000080 2 1>
   <.PortSym -40 30 3 0>
   <Line -40 30 20 0 #000080 2 1>
-  <Rectangle -20 -10 40 70 #fc0107 1 1 #fc0107 1 1>
+  <Rectangle -20 -10 40 70 #0000ff 1 1 #0000ff 1 1>
   <Line 20 -10 0 70 #000080 2 1>
   <Line 20 -10 20 0 #000080 2 1>
   <.PortSym 40 -10 4 180>
