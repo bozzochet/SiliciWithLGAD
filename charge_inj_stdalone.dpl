@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-42,-220,1634,651,1,0,24>
+  <Grid=10,10,0>
+  <DataSet=charge_inj.dat>
+  <DataDisplay=charge_inj.sch>
+  <OpenDisplay=1>
+  <Script=charge_inj.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 77 108 1305 308 3 #c0c0c0 1 00 1 0 2e-07 5e-06 1 -5.49336e-06 1e-06 4.99396e-07 1 -1 0.5 1 315 0 225 "" "" "">
+	<"charge_inj_usage:ICin_after.It" #ff00ff 2 3 0 0 0>
+	<"charge_inj_usage:ICin_before.It" #108040 2 3 0 0 0>
+	<"charge_inj_stdalone:ICout.It" #c00000 2 3 0 0 0>
+	<"charge_inj_stdalone:ICin.It" #0217ca 2 3 0 1 0>
+  </Rect>
+  <Rect 77 508 1305 308 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -5.49336e-06 1e-06 4.99396e-07 1 -1 0.5 1 315 0 225 "" "" "">
+	<"charge_inj_stdalone:ICin.It" #0217ca 2 3 0 1 0>
+	<"charge_inj_stdalone:ICout.It" #c00000 2 3 0 0 0>
+	<"charge_inj_usage:ICin_after.It" #fc02ff 2 3 0 2 0>
+	<"charge_inj_usage:ICin_before.It" #108040 2 3 0 1 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
