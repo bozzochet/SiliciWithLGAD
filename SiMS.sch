@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-20,-18,1796,933,1,0,0>
+  <View=-40,-99,1796,833,1,0,0>
   <Grid=10,10,1>
   <DataSet=LGAD.dat>
   <DataDisplay=LGAD.dpl>
@@ -63,6 +63,6 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
-  <Text 100 290 12 #000000 0 "7 kOhm cm -->\n7 kOhm cm * 300 um / (100 mm * 100 mm) =\n70 kOhm mm * 0.3 mm / (100 mm * 100 mm) =\n70 kOhm * 3 * 10^{-1} * 10^{-4} = 210 kOhm * 10^{-5}\n2.1 * 10^2 * 10^3 * 10^{-5} Ohm =\n2.1 Ohm\n\nche però misà non è il modo giusto di fare il conto...\nQuesta sarà la resistenza anche in diretta,\ncioè quella in serie con la capacità.\n\nIn inversa forse il conto si fa con la corrente di leakage:\n- 10 nA\n- 100 V\n--> (100V/(10*1E-9A))= 10 E9 Ohm">
-  <Text 500 200 12 #000000 0 "(FOOT, AMS-L0) 120 pF/mm^2 --> 120 pF/mm^2 * 10 cm * 10 um = 120 pF/mm^2 * 100 mm * 0.01 um = 120 pF">
+  <Text 750 200 12 #000000 0 "(FOOT, AMS-L0) 120 pF/mm^2 --> 120 pF/mm^2 * 10 cm * 10 um = 120 pF/mm^2 * 100 mm * 0.01 um = 120 pF">
+  <Text -30 320 12 #000000 0 "7 kOhm cm -->\n7 kOhm cm * 300 um / (100 mm * 100 mm) =\n70 kOhm mm * 0.3 mm / (100 mm * 100 mm) =\n70 kOhm * 3 * 10^{-1} * 10^{-4} = 210 kOhm * 10^{-5}\n2.1 * 10^2 * 10^3 * 10^{-5} Ohm =\n2.1 Ohm\n\nche però misà non è il modo giusto di fare il conto...\nQuesta sarà la resistenza anche in diretta,\ncioè quella in serie con la capacità.\n\nIn inversa forse il conto si fa con la corrente di leakage:\n- 10 nA\n- 100 V\n--> (100V/(10*1E-9A))= 10 E9 Ohm">
 </Paintings>
