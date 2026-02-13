@@ -1,0 +1,47 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-50,-52,1717,900,0.75,105,0>
+  <Grid=10,10,0>
+  <DataSet=simple_diode.dat>
+  <DataDisplay=simple_diode.sch>
+  <OpenDisplay=1>
+  <Script=simple_diode.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 166 387 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.2e-07 2e-07 1.32e-06 0 0 0.1 1.2 315 0 225 "Time (s)" "" "">
+	<"ICin.It" #4196b4 2 3 0 0 0>
+	<"Vback.Vt" #ff0000 2 3 0 0 1>
+	<"Vtop.Vt" #ff00ff 2 3 0 0 1>
+	<"ICdiode.It" #ff7800 2 3 0 2 0>
+	<"Ibias.It" #3a0000 2 3 0 0 0>
+	<"ICout.It" #0217ca 4 3 0 2 0>
+	<"Iback.It" #108040 2 3 0 0 0>
+	<"ICrele.It" #fecc66 2 3 0 0 0>
+	<"ICtest.It" #800080 4 3 0 0 0>
+	<"Vtest.Vt" #21ff06 2 3 0 2 1>
+  </Rect>
+  <Rect 166 757 1291 318 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 0 -1.5e-08 5e-09 1.5e-08 1 -6e-05 1e-05 1.35916e-05 315 0 225 "Time (s)" "" "">
+	<"ICin.It" #4196b4 2 3 0 0 0>
+	<"Vback.Vt" #ff0000 2 3 0 0 1>
+	<"Vtop.Vt" #ff00ff 2 3 0 0 1>
+	<"ICdiode.It" #ff7800 2 3 0 2 0>
+	<"Ibias.It" #3a0000 2 3 0 0 0>
+	<"ICout.It" #0217ca 4 3 0 0 0>
+	<"Iback.It" #108040 2 3 0 0 0>
+	<"ICrele.It" #fecc66 2 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=0,-19,1489,929,1,0,194>
+  <View=0,-19,1489,920,1,0,93>
   <Grid=10,10,1>
   <DataSet=games.dat>
   <DataDisplay=Plots.dpl>
@@ -108,4 +108,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
+  <Text 720 230 12 #000000 0 "Sono un fagiano: così è polarizzato diretto.\nRicontrollarlo...">
 </Paintings>

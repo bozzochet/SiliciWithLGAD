@@ -1,0 +1,49 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-300,256,1862,13788,0.964283,44,0>
+  <Grid=10,10,0>
+  <DataSet=Global Pulse Analysis.dat>
+  <DataDisplay=Global Pulse Analysis.sch>
+  <OpenDisplay=1>
+  <Script=Global Pulse Analysis.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -150 974 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-10 2e-09 6e-09 1 -1 0.5 1 315 0 225 "" "" "">
+	<"twoLGAD_series_partitor:ICout.I" #8e0000 8 3 0 0 0>
+	<"twoLGAD_series_partitor:ICmid1.I" #108040 4 3 0 2 0>
+	<"twoLGAD_series_partitor:ICmid0.I" #ff00ff 0 3 0 0 0>
+	<"twoLGAD_series_partitor:ICin.I" #0000ff 0 3 0 3 0>
+  </Rect>
+  <Rect -150 604 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -10 20 110 1 -1 0.5 1 315 0 225 "" "" "">
+	<"twoLGAD_series_partitor:PDbias.V" #ff0000 4 3 0 0 0>
+	<"twoLGAD_series_partitor:middle_bias.V" #00ff00 4 3 0 2 0>
+	<"twoLGAD_series_partitor:Vmid.V" #8e0000 2 3 0 3 0>
+	<"twoLGAD_series_partitor:Vout.V" #000000 2 3 0 0 0>
+  </Rect>
+  <Rect -150 1864 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-10 2e-09 6e-09 1 -1 0.5 1 315 0 225 "" "" "">
+	<"twoLGAD_series_supply:ICout.I" #8e0000 8 3 0 0 0>
+	<"twoLGAD_series_supply:ICmid1.I" #108040 4 3 0 2 0>
+	<"twoLGAD_series_supply:ICmid0.I" #ff00ff 0 3 0 0 0>
+	<"twoLGAD_series_supply:ICin.I" #0000ff 0 3 0 3 0>
+  </Rect>
+  <Rect -150 1494 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -10 20 110 1 -1 0.5 1 315 0 225 "" "" "">
+	<"twoLGAD_series_supply:PDbias.V" #ff0000 4 3 0 0 0>
+	<"twoLGAD_series_supply:middle_bias.V" #00ff00 4 3 0 2 0>
+	<"twoLGAD_series_supply:Vmid.V" #8e0000 2 3 0 3 0>
+	<"twoLGAD_series_supply:Vout.V" #000000 2 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
