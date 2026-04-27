@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-20,-119,1033,772,1,0,121>
+  <View=-20,-126,1033,605,1,0,0>
   <Grid=10,10,1>
   <DataSet=oneLGAD_oneSiMS.dat>
   <DataDisplay=Plots.dpl>

@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-300,256,1862,13788,0.964283,44,0>
+  <View=-300,299,1862,2432,0.964283,0,249>
   <Grid=10,10,0>
   <DataSet=Global Pulse Analysis.dat>
   <DataDisplay=Global Pulse Analysis.sch>
@@ -20,29 +20,34 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect -150 974 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-10 2e-09 6e-09 1 -1 0.5 1 315 0 225 "" "" "">
-	<"twoLGAD_series_partitor:ICout.I" #8e0000 8 3 0 0 0>
-	<"twoLGAD_series_partitor:ICmid1.I" #108040 4 3 0 2 0>
-	<"twoLGAD_series_partitor:ICmid0.I" #ff00ff 0 3 0 0 0>
-	<"twoLGAD_series_partitor:ICin.I" #0000ff 0 3 0 3 0>
-  </Rect>
   <Rect -150 604 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -10 20 110 1 -1 0.5 1 315 0 225 "" "" "">
 	<"twoLGAD_series_partitor:PDbias.V" #ff0000 4 3 0 0 0>
 	<"twoLGAD_series_partitor:middle_bias.V" #00ff00 4 3 0 2 0>
 	<"twoLGAD_series_partitor:Vmid.V" #8e0000 2 3 0 3 0>
 	<"twoLGAD_series_partitor:Vout.V" #000000 2 3 0 0 0>
   </Rect>
-  <Rect -150 1864 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-10 2e-09 6e-09 1 -1 0.5 1 315 0 225 "" "" "">
+  <Rect -150 974 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-06 2e-05 6e-05 1 -1 0.5 1 315 0 225 "" "" "">
+	<"twoLGAD_series_partitor:ICout.I" #8e0000 8 3 0 0 0>
+	<"twoLGAD_series_partitor:ICmid1.I" #108040 4 3 0 2 0>
+	<"twoLGAD_series_partitor:ICmid0.I" #ff00ff 0 3 0 0 0>
+	<"twoLGAD_series_partitor:ICin.I" #0000ff 0 3 0 3 0>
+	<"twoLGAD_series_partitor:ICLGAD1.I" #777777 4 3 0 1 0>
+  </Rect>
+  <Rect -150 2334 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-10 2e-09 6e-09 1 -1 0.5 1 315 0 225 "" "" "">
 	<"twoLGAD_series_supply:ICout.I" #8e0000 8 3 0 0 0>
 	<"twoLGAD_series_supply:ICmid1.I" #108040 4 3 0 2 0>
 	<"twoLGAD_series_supply:ICmid0.I" #ff00ff 0 3 0 0 0>
 	<"twoLGAD_series_supply:ICin.I" #0000ff 0 3 0 3 0>
   </Rect>
-  <Rect -150 1494 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -10 20 110 1 -1 0.5 1 315 0 225 "" "" "">
+  <Rect -150 1964 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -10 20 110 1 -1 0.5 1 315 0 225 "" "" "">
 	<"twoLGAD_series_supply:PDbias.V" #ff0000 4 3 0 0 0>
 	<"twoLGAD_series_supply:middle_bias.V" #00ff00 4 3 0 2 0>
 	<"twoLGAD_series_supply:Vmid.V" #8e0000 2 3 0 3 0>
 	<"twoLGAD_series_supply:Vout.V" #000000 2 3 0 0 0>
+  </Rect>
+  <Rect -150 1364 1283 285 3 #c0c0c0 1 00 1 0 5 100 1 -5e-06 2e-05 6e-05 1 -1 0.5 1 315 0 225 "" "" "">
+	<"twoLGAD_series_partitor:ICparthigh.I" #000000 2 3 0 0 0>
+	<"twoLGAD_series_partitor:ICpartlow.I" #c00000 2 3 0 2 0>
   </Rect>
 </Diagrams>
 <Paintings>

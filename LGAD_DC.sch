@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=0,-9,1143,1409,1,0,0>
+  <View=0,1,1143,1409,1,0,0>
   <Grid=10,10,1>
   <DataSet=LGAD.dat>
   <DataDisplay=LGAD.dpl>
@@ -34,7 +34,7 @@
   <Port toCSA 1 430 140 -23 12 0 0 "2" 1 "analog" 0>
   <Port parGND 1 720 290 4 12 1 2 "4" 1 "analog" 0>
   <C C1 1 450 330 17 -26 0 1 "50 pF" 1 "" 0 "neutral" 0>
-  <R R2 1 540 360 15 -26 0 1 "10 GOhm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
+  <R R2 1 540 360 15 -26 0 1 "50 GOhm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
 </Components>
 <Wires>
   <450 420 450 450 "" 0 0 0 "">

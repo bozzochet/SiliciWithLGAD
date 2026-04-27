@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=40,-89,1148,842,1.125,0,339>
+  <View=40,-89,1148,805,1.125,0,302>
   <Grid=10,10,1>
   <DataSet=twoLGAD_series_supply.dat>
   <DataDisplay=Plots_montaggio.dpl>
@@ -23,11 +23,11 @@
   <IProbe ICmid1 1 420 500 -26 16 1 2>
   <IProbe ICin 1 410 700 -26 16 1 2>
   <IProbe ICout 1 290 300 -26 16 1 2>
-  <Sub LGAD2 1 490 550 -20 94 0 0 "LGAD_DC.sch" 0>
-  <Sub LGAD1 1 490 350 -20 94 0 0 "LGAD_DC.sch" 0>
   <Vdc PDbias1 1 240 420 18 -26 1 3 "V1" 1>
   <Vdc PDbias2 1 240 600 18 -26 1 3 "V1" 1>
   <R R1 1 280 500 -26 15 0 0 "100 MOhm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
+  <Sub LGAD1 1 490 350 -20 94 0 0 "LGAD_DC.sch" 0>
+  <Sub LGAD2 1 490 550 -20 94 0 0 "LGAD_DC.sch" 0>
 </Components>
 <Wires>
   <210 300 210 310 "" 0 0 0 "">
