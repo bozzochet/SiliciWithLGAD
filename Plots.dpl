@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-300,-471,1862,11945,1.01587,102,11874>
+  <View=-300,-471,1862,11845,0.9375,181,2426>
   <Grid=10,10,0>
   <DataSet=Global Pulse Analysis.dat>
   <DataDisplay=Global Pulse Analysis.sch>
@@ -61,7 +61,7 @@
 	<"oneLGAD_oneSiMS_swapped:ICin2.It" #fc0107 2 3 0 0 0>
   </Rect>
   <Rect -56 2738 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -3e-06 1e-06 1.40545e-06 1 80 20 210.381 315 0 225 "Time (s)" "" "">
-	<"oneLGAD_threeSiMSsharingshortback:ICout.It" #0217ca 2 3 0 3 0>
+	<"oneLGAD_threeSiMSsharingshortback:ICout.It" #0217ca 6 3 0 2 0>
 	<"oneLGAD_threeSiMSsharingshortback:ICin.It" #108040 2 3 0 0 0>
 	<"oneLGAD_threeSiMSsharingshortback:ICin2.It" #8e0000 2 3 0 1 0>
 	<"oneLGAD_threeSiMSsharingshortback:ICout2.It" #ff7800 2 3 0 1 0>
@@ -70,10 +70,10 @@
 	<"oneLGAD_threeSiMSsharingshortback:VCmid.Vt" #108040 2 3 0 0 1>
 	<"oneLGAD_threeSiMSsharingshortback:ICout4.It" #47a8cb 2 3 0 2 0>
 	<"oneLGAD_threeSiMSsharingshortback:ICmid.It" #000000 2 3 0 0 0>
-	<"oneLGAD_threeSiMSsharingshortback:ICground_CSA.It" #fc02ff 4 3 0 0 0>
+	<"oneLGAD_threeSiMSsharingshortback:ICground_CSA.It" #fc02ff 8 3 0 0 0>
 	<"oneLGAD_threeSiMSsharingshortback:ICback_LGAD.It" #21ff06 2 3 0 0 0>
 	<"oneLGAD_threeSiMSsharingshortback:ICPD15.It" #00ffff 2 3 0 0 0>
-	<"oneLGAD_threeSiMSsharingshortback:ICPD14.It" #ffff0a 2 3 0 0 0>
+	<"oneLGAD_threeSiMSsharingshortback:ICPD14.It" #ffff0a 5 3 0 0 0>
   </Rect>
   <Rect -66 1308 1294 303 3 #c0c0c0 1 00 0 9.8e-07 1e-08 1.1e-06 1 -1.22279e-06 2e-07 1.39123e-07 1 -1 0.5 1 315 0 225 "Time (s)" "" "">
 	<"oneLGAD_oneSiMS:ICout.It" #0217ca 2 3 0 0 0>
